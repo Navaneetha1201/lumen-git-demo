@@ -11,6 +11,6 @@ public class SampleApi {
     @GetMapping
     public ResponseEntity<String> get()
     {
-        return ResponseEntity.ok("Hello World");
+        return ResponseEntity.ok("Hello Sample");
     }
 }
